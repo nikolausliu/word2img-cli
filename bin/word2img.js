@@ -34,7 +34,7 @@ program
 program
   .command('new <word>')
   .description('generate a new image use the input word')
-  .option('-p --preset <preset>', 'generate image use a preset')
+  .option('-p --preset <preset>', 'Generate image use a preset')
   .option('-w --width <width>', 'Set width of the image', 600)
   .option('--height <height>', 'Set geight of the image', 200)
   .option('--bgColor <bgColor>', 'Set backgound-color of the image', '#fff')
