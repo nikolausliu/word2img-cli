@@ -1,0 +1,30 @@
+{
+  "name": "word2img-cli",
+  "version": "0.0.1",
+  "description": "command line interface for generate image based on your input",
+  "bin": {
+    "word2img": "bin/word2img.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolausliu/word2img-cli.git"
+  },
+  "keywords": [
+    "word2img",
+    "cli"
+  ],
+  "author": "Nikolaus Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolausliu/word2img-cli/issues"
+  },
+  "homepage": "https://github.com/nikolausliu/word2img-cli#readme",
+  "dependencies": {
+    "canvas": "^2.7.0",
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0",
+    "lodash.clonedeep": "^4.5.0",
+    "os": "^0.1.1"
+  }
+}
