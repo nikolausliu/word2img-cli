@@ -1,6 +1,6 @@
 {
   "name": "word2img-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "command line interface for generate image based on your input",
   "bin": {
     "word2img": "bin/word2img.js"
